@@ -70,6 +70,7 @@ class AssetUpdateTasksHandler
             }
         }
 
+        //teset
         $asset->getImageThumbnail(Asset\Image\Thumbnail\Config::getPreviewConfig())->generate(false);
     }
 
